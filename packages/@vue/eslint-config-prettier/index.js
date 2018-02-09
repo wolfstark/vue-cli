@@ -5,5 +5,9 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': 'warn'
+  },
+  globals: {
+    module: true,
+    require: true
   }
 }
